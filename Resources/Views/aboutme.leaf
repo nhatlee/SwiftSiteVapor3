@@ -4,17 +4,17 @@
 <link rel="stylesheet" href="styles/about.css" type="text/css">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
 </head>
-<!-- New line </div> -->
+
 <br />
 
 <body>
-<!-- <div class="title">Nhật Lê's Homepage</div> -->
+
 <p><a href="images/nhatle.jpg">
 <img align="right" width="220" height="200" src="images/nhatle.jpg" alt="photo">
 </a></p>
 
 <p align="center">
-<font size="10" color=black><strong> Hello :))</strong></font>
+<font size="10" color=black><strong> Hello!</strong></font>
 </p>
 
 <div class="text">
@@ -40,22 +40,32 @@ I am an iOS developer (in Objective C and Swift).<br />If you want to get in tou
 <div class="text">
 
 <p>
-When I started my job as an iOS developer, I am using Objective-C to develop iOS apps.<br />This time I fall in loved with <a href="https://swift.org">Swift</a> and often use Swift for new project. It's modern, safe, fast, less code and easy to use. I started working with Swift since 2014 (from version 1.0). And has some iOS projects public on AppStore, one of them is<a href="https://itunes.apple.com/us/app/swoppler/id1081741755?mt=8"> Swoppler</a> another one you can find in my resum.
+When I started my job as an iOS developer, I am using Objective-C to develop iOS apps.<br />But this time I fall in loved with <a href="https://swift.org">Swift</a> and often use Swift for new project. It's modern, safe, fast, less code and easy to use. I started working with Swift since 2014 (from version 1.0). And has some iOS projects public on AppStore, one of them is<a href="https://itunes.apple.com/us/app/swoppler/id1081741755?mt=8"> Swoppler</a> another one you can find in my resum.
 <br />
 I also love to learn new programming language like <a href="https://golang.org">Golang</a>, and want to use it to build some projects which apply <a href="https://en.wikipedia.org/wiki/Blockchain">Blockchain</a>.
 </p>
 
 </div>
-<!--
-<div class="box">Beyond the iOS</div>
 
-<div class="text">
+<br />
+<br />
 
-<p>I also love to working with backend and develop app on MacOS.</p>
+<nav>
+<p align=center>
+<a href="https://twitter.com/nhatjle6" target="_blank">
+<input type="image" src="images/twitter.jpg" alt="Submit" width="48" height="48">
+</a>
 
+<a href="https://github.com/nhatlee" target="_blank">
+    <input type="image" src="images/GitIcon.jpg" alt="Submit" width="48" height="48">
+</a>
 
-</div>
--->
+<a href="https://stackoverflow.com/users/4327164/lee" target="_blank">
+    <input type="image" src="images/stackoverflow.jpg" alt="Submit" width="48" height="48">
+</a>
+</p>
+</nav>
+
 </body>
 </html>
 

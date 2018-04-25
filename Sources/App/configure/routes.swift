@@ -17,28 +17,28 @@ public func routes(_ router: Router) throws {
 //    router.delete("todos", Todo.parameter, use: todoController.delete)
     //Home page: about me
     router.get("") { (req) in
-        return try req.view().render("homepage.html")
-    }
-    
-    router.get("mouse") { (req) in
-        return try req.view().render("MouseMove.html")
+        return try req.view().render("aboutme.leaf")
     }
     
     router.get("resume") { (req) in
         return try req.view().render("resum.html")
     }
-//
-//
-//    router.get("form") { (req) in
-//        return try req.view().render("form.html")
-//    }
+    
+    router.post(BlogModel.self, at: "blogpost") { (request, blogpost) in
+        return blogpost.save(on: request)
+    }
+    
+    let blogPostController = BlogpostController()
+    router.get("allpost", use: blogPostController.index)
+    router.post("createPost", use: blogPostController.create)
+    router.delete("deletepost", use: blogPostController.delete)
     
     
     ///Home
-    let blog = HomeController()
-    router.get("blog", use: blog.blog)
-    let aboutMe = HomeController()
-    router.get("aboutMe", use: aboutMe.aboutMe)
+//    let blog = HomeController()
+//    router.get("blog", use: blog.blog)
+//    let aboutMe = HomeController()
+//    router.get("aboutMe", use: aboutMe.aboutMe)
     
     
 }

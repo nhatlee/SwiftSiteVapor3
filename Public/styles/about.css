@@ -2,7 +2,6 @@
 /*.body { color: black; background: white; margin: 0 0 0 0 }*/
 
 /* No borders on image links */
-a:link img, a:visited img {border-style: none}
 
 .title {
     color: black;
@@ -21,13 +20,24 @@ a:link img, a:visited img {border-style: none}
 }
 
 .largebox { border: solid 1px MediumTurquoise;
-    background: rgb(66, 156, 214);;
+    background: rgb(66, 156, 214);
     padding: 0 0.5em 0 0.5em;
     display:table;
     font-size:28pt;
     font-weight: normal;
     font-family:"Comic Sans MS";
     color: white;
+}
+
+.skillbox { border: solid 1px black;
+    background: white;
+    border-radius: 10px;
+    padding: 0 0.5em 0 0.5em;
+    display:table;
+    font-size:15pt;
+    font-weight: normal;
+    font-family:"Times";
+    color: black;
 }
 
 #rcorners1 {
@@ -48,11 +58,29 @@ a:link img, a:visited img {border-style: none}
     height: 150px;
 }
 
+#socialimage img {
+    display: button;
+    height: 60px;
+    width: 60px;
+}
+
 .text {
     text-align: left;
     padding-left: 25pt;
     color:black;
 }
 
-address img { float: right; width: 88px; height: 31px; }
-address     { clear: right; }
+.button {
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    width: 60px;
+}
+
+nav a {
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px;
+    margin: 15px;
+}
