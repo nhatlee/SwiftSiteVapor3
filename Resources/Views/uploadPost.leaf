@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blog Post Upload Form</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container">
+<div class="row">
+<div class="col-sm-6 col-sm-offset-3">
+<h1 class="text-center">Blog post</h1>
+<div class="panel panel-primary">
+<div class="panel-heading text-center">
+Blog Post
+</div>
+<div class="panel-body">
+<form action="/createPost" method="POST" enctype="multipart/form-data" id="upload-form">
+
+<div class="form-group">
+<h4>Post name</h4>
+<!-- <select class="form-control" name="title" form="upload-form"> -->
+<input type="text" name="title" value="your title">
+    
+</select>
+</div>
+<div class="form-group">
+<input type="file" accept="file_extension/html" name="content">
+</div>
+<input class="btn btn-success btn-block" type="submit" value="Upload">
+</form>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

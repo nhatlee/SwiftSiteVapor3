@@ -24,21 +24,16 @@ public func routes(_ router: Router) throws {
         return try req.view().render("resum.html")
     }
     
-    router.post(BlogModel.self, at: "blogpost") { (request, blogpost) in
-        return blogpost.save(on: request)
-    }
     
+    
+    //Blog
     let blogPostController = BlogpostController()
-    router.get("allpost", use: blogPostController.index)
+    router.get("upload", use: blogPostController.loadUploadForm)
+//    router.get("allpost", use: blogPostController.index)
     router.post("createPost", use: blogPostController.create)
     router.delete("deletepost", use: blogPostController.delete)
-    
-    
-    ///Home
-//    let blog = HomeController()
-//    router.get("blog", use: blog.blog)
-//    let aboutMe = HomeController()
-//    router.get("aboutMe", use: aboutMe.aboutMe)
+    router.get("newpost", use: blogPostController.newpost)
+
     
     
 }

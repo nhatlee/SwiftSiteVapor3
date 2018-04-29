@@ -1,6 +1,7 @@
 //import FluentSQLite
 import FluentMySQL
 import Vapor
+import Leaf
 
 /// Called before your application initializes.
 ///
@@ -18,6 +19,10 @@ public func configure(
     try routes(router)
     services.register(router, as: Router.self)
 
+    
+    try services.register(LeafProvider())
+    config.prefer(LeafRenderer.self, for: TemplateRenderer.self)
+    
     /// Register middleware
     var middlewares = MiddlewareConfig() // Create _empty_ middleware config
     middlewares.use(FileMiddleware.self) // Serves files from `Public/` directory
@@ -37,9 +42,9 @@ public func configure(
 
     /// Register the configured SQLite database to the database config.
     var databases = DatabaseConfig()
-    let config = MySQLDatabaseConfig(hostname: "127.0.0.1", port: 3306, username: "root", password: "nhat@2018", database: "MySiteSwift")
+    let databaseConfig = MySQLDatabaseConfig(hostname: "127.0.0.1", port: 3306, username: "root", password: "nhat@2018", database: "MySiteSwift")
 
-    databases.add(database: MySQLDatabase(config: config), as: .mysql)
+    databases.add(database: MySQLDatabase(config: databaseConfig), as: .mysql)
     services.register(databases)
 
     /// Configure migrations
