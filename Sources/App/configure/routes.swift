@@ -26,13 +26,13 @@ public func routes(_ router: Router) throws {
     
     
     
-    //Blog
-    let blogPostController = BlogpostController()
-    router.get("upload", use: blogPostController.loadUploadForm)
-//    router.get("allpost", use: blogPostController.index)
-    router.post("createPost", use: blogPostController.create)
-    router.delete("deletepost", use: blogPostController.delete)
-    router.get("newpost", use: blogPostController.newpost)
+//    //Blog
+//    let blogPostController = BlogpostController()
+//    router.get("upload", use: blogPostController.loadUploadForm)
+////    router.get("allpost", use: blogPostController.index)
+//    router.post("createPost", use: blogPostController.create)
+//    router.delete("deletepost", use: blogPostController.delete)
+//    router.get("newpost", use: blogPostController.newpost)
 
     
     

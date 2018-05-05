@@ -41,15 +41,15 @@ public func configure(
 //    }
 
     /// Register the configured SQLite database to the database config.
-    var databases = DatabaseConfig()
-    let databaseConfig = MySQLDatabaseConfig(hostname: "127.0.0.1", port: 3306, username: "root", password: "nhat@2018", database: "MySiteSwift")
-
-    databases.add(database: MySQLDatabase(config: databaseConfig), as: .mysql)
-    services.register(databases)
-
+//    var databases = DatabaseConfig()
+//    let databaseConfig = MySQLDatabaseConfig(hostname: "127.0.0.1", port: 3306, username: "root", password: "nhat@2018", database: "MySiteSwift")
+//
+//    databases.add(database: MySQLDatabase(config: databaseConfig), as: .mysql)
+//    services.register(databases)
+//
     /// Configure migrations
     var migrations = MigrationConfig()
-    migrations.add(model: BlogModel.self, database: .mysql)
+//    migrations.add(model: BlogModel.self, database: .mysql)
     services.register(migrations)
 
 }
