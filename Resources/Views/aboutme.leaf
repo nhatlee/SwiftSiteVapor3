@@ -10,7 +10,7 @@
 <body>
 
 <p><a href="images/nhatle.jpg">
-<img align="right" width="220" height="200" src="images/nhatle.jpg" alt="photo">
+<img align="right" width="280" height="200" src="images/nhatle.jpg" alt="photo">
 </a></p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 <div class="text">
 <p align="center">
 <font size="4" color=black>
-I am an iOS developer.<br />If you want to get in touch with me, please feel free to reach out over <a href="mailto:lenhathk@gmail.com">email!</a>
+My name's Nhat, an iOS developer.<br />If you want to get in touch with me, please feel free to reach out over <a href="mailto:lenhathk@gmail.com">email!</a>
 </font>
 </p>
 </div>
