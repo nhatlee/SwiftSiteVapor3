@@ -20,19 +20,19 @@
 <div class="text">
 <p align="center">
 <font size="4" color=black>
-I am an iOS developer (in Objective C and Swift).<br />If you want to get in touch with me, please feel free to reach out over <a href="mailto:lenhathk@gmail.com">email!</a>
+I am an iOS developer.<br />If you want to get in touch with me, please feel free to reach out over <a href="mailto:lenhathk@gmail.com">email!</a>
 </font>
 </p>
 </div>
 
 <br />
 
-<div class="box">Me On</div>
+<div class="box">About Me</div>
 
 <ul>
 <li><a href="/resume">My résumé</a></li>
-<li><a href="https://twitter.com/nhatjle6">@nhatjle6</a></li>
-<li><a href="https://github.com/nhatlee">GitHub</a></li>
+<li><a href="https://twitter.com/nhatjle6" target="_blank">@nhatjle6</a></li>
+<li><a href="https://github.com/nhatlee" target="_blank">GitHub</a></li>
 </ul>
 
 <div class="box">Programming</div>
@@ -40,9 +40,7 @@ I am an iOS developer (in Objective C and Swift).<br />If you want to get in tou
 <div class="text">
 
 <p>
-When I started my job as an iOS developer, I am using Objective-C to develop iOS apps.<br />But this time I fall in loved with <a href="https://swift.org">Swift</a> and often use Swift for new project. It's modern, safe, fast, less code and easy to use. I started working with Swift since 2014 (from version 1.0). And has some iOS projects public on AppStore, one of them is<a href="https://itunes.apple.com/us/app/swoppler/id1081741755?mt=8"> Swoppler</a> another one you can find in my resum.
-<br />
-I also love to learn new programming language like <a href="https://golang.org">Golang</a>, and want to use it to build some projects which apply <a href="https://en.wikipedia.org/wiki/Blockchain">Blockchain</a>.
+I love programming! When I started my job as an iOS developer at TMA-Solution, I am using Objective-C to develop iOS apps.<br />But this time I fall in loved with <a href="https://swift.org">Swift</a> and often use Swift for new projects. It's modern, safe, fast, less code and easy to use. I started working with Swift since 2014 (from version 1.0). And has many iOS projects public on AppStore. I also use <a href="https://vapor.codes">Vapor Swift</a> to develop my web app and server API.
 </p>
 
 </div>
